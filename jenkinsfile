@@ -1,0 +1,11 @@
+pipeline {
+    agent { label "linux" } 
+
+    stages {
+        stage('Check-In') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}
